@@ -20,6 +20,7 @@ Approach
 
 
 Dump data in mysql db
+
 ```
 docker exec -i mysql sh -c 'exec mysql -uroot -p"$MYSQL_ROOT_PASSWORD"' < "./database-dump/mysqlsampledatabase.sql"
 ```
